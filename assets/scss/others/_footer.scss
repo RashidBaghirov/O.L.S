@@ -45,6 +45,27 @@
                     color: #000;
                 }
             }
+            button {
+                display: block;
+                background-color: transparent;
+                border: 1px solid #d8d8d8;
+                border-radius: 2em;
+                color: #fff;
+                padding: 1.5em 2em;
+                max-width: 370px;
+                min-width: 280px;
+                text-transform: uppercase;
+                width: 100%;
+                margin: 50px auto 0;
+                text-decoration: none;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+
 
             .subscribe {
                 background-color: #000;
